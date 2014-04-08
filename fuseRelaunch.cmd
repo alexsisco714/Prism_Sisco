@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench_isim_beh.exe" -prj "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench_beh.prj" "work.ALU_testbench" 

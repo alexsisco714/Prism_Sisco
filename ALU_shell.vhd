@@ -2,13 +2,13 @@
 --
 -- Title       : ALU
 -- Design      : ALU
--- Author      : usafa
+-- Author      : Alex Sisco
 -- Company     : usafa
 --
 -------------------------------------------------------------------------------
 --
 -- File        : ALU.vhd
--- Generated   : Fri Mar 30 11:16:54 2007
+-- Generated   : Mon Apr 7 11:16:54 2014
 -- From        : interface description file
 -- By          : Itf2Vhdl ver. 1.20
 --
@@ -57,9 +57,20 @@ begin
 --  6     : ADD
 --  7     : LD
 aluswitch: process (Accumulator, Data, OpSel)
+
         begin
-		-- enter your if/then/else or case statements here
-		end process;
+			case OpSel is
+				when "000" => Result <= Accumulator and Data;
+				when "001" => Result <= (not Accumulator)+"001";
+				when "010" => Result <= not Accumulator;
+				when "011" => Result <= std_logic_vector(rotate_right(unsigned(Accumulator),1)) ;
+				when "100" => Result <= Accumulator or Data;
+				when "101" => Result <= Data;
+				when "110" => Result <= Accumulator + Data;
+				when "111" => Result <= Data;
+				when others => Result <= Accumulator;
+			end case;
+		  end process;
 
 -- OR, enter your conditional signal statement here
 
