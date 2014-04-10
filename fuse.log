@@ -1,22 +1,24 @@
-Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench_isim_beh.exe -prj C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench_beh.prj work.ALU_testbench 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/Datapath_testbench_isim_beh.exe" -prj "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/Datapath_testbench_beh.prj" "work.Datapath_testbench" 
 ISim P.15xf (signature 0xc3576ebc)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_shell.vhd" into library work
-Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/Datapath_shell.vhd" into library work
+Parsing VHDL file "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/Datapath_testbench.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
 Compiling package std_logic_arith
+Compiling package numeric_std
 Compiling package std_logic_unsigned
 Compiling architecture alu of entity ALU [alu_default]
-Compiling architecture behavior of entity alu_testbench
+Compiling architecture datapath of entity Datapath [datapath_default]
+Compiling architecture behavior of entity datapath_testbench
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 8 VHDL Units
-Built simulation executable C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU_testbench_isim_beh.exe
-Fuse Memory Usage: 35360 KB
-Fuse CPU Usage: 889 ms
+Compiled 10 VHDL Units
+Built simulation executable C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/Datapath_testbench_isim_beh.exe
+Fuse Memory Usage: 35796 KB
+Fuse CPU Usage: 904 ms

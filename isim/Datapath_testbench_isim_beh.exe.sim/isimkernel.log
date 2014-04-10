@@ -1,0 +1,10 @@
+Command line:
+   Datapath_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51714
+
+Thu Apr 10 11:13:38 2014
+
+
+ Elaboration Time: 0.031201 sec

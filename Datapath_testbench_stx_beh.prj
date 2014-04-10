@@ -1,0 +1,3 @@
+vhdl isim_temp "ALU_shell.vhd"
+vhdl isim_temp "Datapath_shell.vhd"
+vhdl isim_temp "Datapath_testbench.vhd"

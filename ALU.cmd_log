@@ -1,0 +1,1 @@
+vhdtdtfi -prj PRISM_Sisco -o "C:/Users/C16Alex.Sisco/Documents/ISE Projects/PRISM_Sisco/ALU.vhi" -module ALU -template C:/Xilinx/14.1/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ALU_shell.vhd 
